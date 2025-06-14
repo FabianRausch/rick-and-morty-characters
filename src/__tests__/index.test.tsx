@@ -1,6 +1,6 @@
-import React from "react";
+import "@testing-library/jest-dom";
 import { render } from "@testing-library/react";
-import Component from "..";
+import Component from "../pages/error";
 
 describe("Test on Error page", () => {
   it("Should match with snapshot", () => {
